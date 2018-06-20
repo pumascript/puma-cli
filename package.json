@@ -1,0 +1,19 @@
+{
+  "name": "puma-cli",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "bin": {
+    "puma-cli": "./src/puma-cli.js"
+  },
+  "description": "command line interface por jobs with PumaScript",
+  "main": "puma-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "pumascript": "^0.1.0"
+  }
+}
