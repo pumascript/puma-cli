@@ -5,15 +5,20 @@
   "bin": {
     "puma-cli": "./src/puma-cli.js"
   },
-  "description": "command line interface por jobs with PumaScript",
+  "description": "Command line tool for PumaScript Framework",
   "main": "puma-cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
-  "author": "",
+  "author": {
+    "name": "PumaScript Team",
+    "email": "pumascript-team@googlegroups.com",
+    "url": "https://github.com/pumascript"
+  },
   "license": "MIT",
   "dependencies": {
     "commander": "^2.15.1",
-    "pumascript": "^0.1.0"
+    "escodegen": "^1.10.0",
+    "pumascript": "^0.2.0"
   }
 }

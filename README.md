@@ -8,10 +8,6 @@ CLI tool for PumaScript usage and integration
 > git clone https://github.com/pumascript/puma-cli.git.  
 > npm install
 
-Because the PumaScript version for npm is deprecated you should:
-
-> Copy the pumasript.js file from the dist folder of the main PumaScript repository and replace the one found in the node_module/pumascript/dist folder of the puma-cli project.
-
 To run puma-cli without prefixing the node command, run the following command within the location of the puma-cli.js file:  
 > npm link
 
