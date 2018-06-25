@@ -1,0 +1,24 @@
+{
+  "name": "puma-cli",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "bin": {
+    "puma-cli": "./src/puma-cli.js"
+  },
+  "description": "Command line tool for PumaScript Framework",
+  "main": "puma-cli.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": {
+    "name": "PumaScript Team",
+    "email": "pumascript-team@googlegroups.com",
+    "url": "https://github.com/pumascript"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "escodegen": "^1.10.0",
+    "pumascript": "^0.2.0"
+  }
+}
